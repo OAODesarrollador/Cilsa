@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico N° 1</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+    <section class="contenedor">
+    <h1 class="titulo">Formulario de Datos Personales</h1>
+        <form class="contenedorFormulario" id="miFormulario">
+            <label for="nombre">Nombre</label></br>
+            <input id="nombre" class="casillaIngreso" name="nombre"></br>
+            <label for="apellido">Apellido</label></br>
+            <input id="apellido" class="casillaIngreso" name="apellido"></br>
+            <label for="email">E-mail</label></br>
+            <input id="email" type="email" class="casillaIngreso"  name="email"></br>
+            <label for="nacimiento">Fecha de Nacimiento</label></br>
+            <input id="nacimiento" type="date" class="casillaIngreso" name="nacimiento"></br>
+            <label for="residencia">País Residencia</label></br>
+            <input id="residencia" class="casillaIngreso" name="residencia"></br>
+            <div>
+                <input id="enviar" class="botEnviar" type="submit" value="Enviar">
+            </div>
+        </form>
+        <button class="contrAlto" id="cambiarColorBtn">Cambiar Contraste</button>
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
